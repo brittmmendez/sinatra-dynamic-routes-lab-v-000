@@ -39,7 +39,7 @@ class App < Sinatra::Base
       "#{@answer}"
 
     elsif @operation=="multiply"
-      @answer=  @number1*@number2 
+      @answer=  @number1*@number2
       "#{@answer}"
 
     elsif @operation=="divide"
